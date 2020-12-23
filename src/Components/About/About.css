@@ -11,6 +11,11 @@
   object-fit: contain;
   border-radius: 50%;
 }
+
+#info {
+  text-align: start;
+}
+
 #about h2 {
   font: 22px/30px "opensans-bold", sans-serif;
   color: #fff;
@@ -40,4 +45,21 @@
 #about .download .button i {
   margin-right: 15px;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  #about {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+
+  #about h2 {
+    font-size: 16px/24px;
+  }
+
+  #about .profile-pic {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 24px;
+  }
 }
